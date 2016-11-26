@@ -1,10 +1,12 @@
-function [fx, x, values] = hillClimbing(x0, f, low, high, maxIters)
+function [fx, x, values, funccount] = hillClimbing(x0, f, low, high, maxIters)
 % Performs the hill climbing algorithm to find then minimum of the function f
 % x0 is the starting point
 % f should provide both the value and gradient
 % maxIters is the number of iterations to perform.
 
 % Returns the final final, the final x, and the list of points
+
+funccount = 1:maxIters;
 
 x = x0;
 iter = 1;
