@@ -1,0 +1,13 @@
+This is my final project for BIOC 470.
+
+Note that this requires my C++ probability computing library, networkprob to be compiled before use.
+
+You can find the code for that library in the networkprob folder.
+
+codeBeforeProject.zip holds the code for networkprob before this project.
+(I added the feature to compute the derivative for a network as part of this project).
+
+Also, some of the scripts for processing the mouse data require the mouse data seperately as well as phylib to be installed.
+
+simpleFakeExperiment.m runs the synthetic experiments.
+solveMigrationSample.m recomputes the migration sample assuming you already have it processed from computeWeightsFromData.
