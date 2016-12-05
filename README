@@ -3,6 +3,7 @@ This is my final project for BIOC 470.
 Note that this requires my C++ probability computing library, networkprob to be compiled before use.
 
 You can find the code for that library in the networkprob folder.
+You can build that code by running cmake . and then make.
 
 codeBeforeProject.zip holds the code for networkprob before this project.
 (I added the feature to compute the derivative for a network as part of this project).
